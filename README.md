@@ -1,2 +1,2 @@
-# GAN
-Deep learning GAN for image recognization and composition
+# MATLAB ImageNet Data TrainingSet Foldername Calibration for Deep Learning
+
