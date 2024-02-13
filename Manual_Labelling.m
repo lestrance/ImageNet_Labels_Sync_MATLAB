@@ -18,8 +18,8 @@ clear
 % Loading the table that contains ImageNet classes and MATLAB classes; Note
 % that the infomation in the table is already verified so you can use it
 % straightforward
-load('G:\All_My_Codes\MATLAB\Robust_AI\ImageNet_Classes_LablesAndIndex.mat')
-load('G:\All_My_Codes\MATLAB\Robust_AI\RobustDL\ImageNetLabelsMappingInfo.mat')
+load('...\ImageNet_Classes_LablesAndIndex.mat')
+load('...\ImageNetLabelsMappingInfo.mat')
 
 
 % Remove Redundant Rows
@@ -34,7 +34,7 @@ c_table = sortrows(c_table, "ImageNet_Classes");
 foldernames_and_labels = sortrows(foldernames_and_labels, "words");
 
 % Load trainingset folder
-trainingset_folder = fullfile("G:\All_My_Codes\MATLAB\Robust_AI\DataSets\ImageNet_Data\ILSVRC\Data\CLS-LOC\train");
+trainingset_folder = fullfile("...\ILSVRC\Data\CLS-LOC\train");
 
 
 % An extra step to make sure the indices info is correct
